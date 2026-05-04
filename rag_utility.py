@@ -19,7 +19,7 @@ embedding = HuggingFaceEmbeddings()
 
 # Load the Llama-3.3-70B model from Groq
 llm = ChatGroq(
-    model="gemma2:2b",
+    model="llama-3.3-70b-versatile",
     temperature=0
 )
 
