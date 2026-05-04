@@ -21,7 +21,7 @@ embedding = HuggingFaceEmbeddings()
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
     temperature=0,
-
+    api_key="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"
 )
 
 
